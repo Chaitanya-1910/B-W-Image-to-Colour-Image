@@ -1,0 +1,2 @@
+import { Aperture, ArrowUpRight } from 'lucide-react'
+export function Header() { return <header className="site-header"><a className="brand" href="#top"><span className="brand-mark"><Aperture size={18} strokeWidth={1.6} /></span><span>Colorize<span className="brand-accent">AI</span></span></a><nav><a href="#workspace">Product</a><a href="#how-it-works">How It Works</a><a href="#technology">Technology</a></nav><a className="button button-small" href="#workspace">Try Colorize <ArrowUpRight size={14} /></a></header> }

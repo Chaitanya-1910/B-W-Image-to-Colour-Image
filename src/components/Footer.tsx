@@ -1,0 +1,2 @@
+import { Aperture } from 'lucide-react'
+export function Footer() { return <footer className="site-footer"><div className="footer-brand"><a className="brand" href="#top"><span className="brand-mark"><Aperture size={18} strokeWidth={1.6} /></span><span>Colorize<span className="brand-accent">AI</span></span></a><p>AI-powered image colorization.</p></div><div className="footer-links"><a href="#workspace">Product</a><a href="#how-it-works">How It Works</a><a href="#technology">Technology</a></div><span className="footer-meta">© 2026 COLORIZEAI</span></footer> }
